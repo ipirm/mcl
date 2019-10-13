@@ -1,0 +1,202 @@
+@media(max-width: 992px){
+    .city-input button {
+    width: 140px !important;
+}
+.city-input input {
+    max-width: 560px  !important;
+}
+.city-block {
+    padding-top: 60px !important;
+}
+}
+
+button.close-city {
+    width: 16px;
+    height: 16px;
+    right: 2px;
+    top: 17px;
+    position: absolute;
+    border: none;
+    background: url(../images/cls3.svg);
+}
+
+.city-block {
+    position: relative;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+p.city-block-head {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+@media(max-width: 768px){
+.city-input input {
+    max-width: 100%  !important;
+    }
+    .city-input button {
+    width: 100px !important;
+}
+}
+.city-input input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+    font-family: 'PTRootUIWebBold';
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    color: #000000;
+    padding: 0 5px 1px 14px;
+}
+
+.city-example {
+    margin-top: 12px;
+}
+
+.city-example p {
+    font-family: PT Root UI;
+    font-size: 13px;
+    line-height: 20px;
+/* identical to box height, or 154% */
+    margin: 0;
+    padding-top: 9px;
+    color: #333333;
+    float: left;
+    margin-right: 11px;
+}
+
+.city-example span {
+    font-family: PT Root UI;
+    font-size: 13px;
+    line-height: normal;
+/* identical to box height, or 154% */
+    height: 30px;
+    margin-right: 5px;
+    padding: 7px 15px 0px 15px;
+    color: #333333;
+    margin-top: 4px;
+    font-weight: bold;
+    display: inline-block;
+    background: #F5F5F7;
+    border-radius: 20px;
+}
+
+.city-example span:last-child {
+    margin-right: 0 !important;
+}
+.city-input.withbutton {
+    position: relative;
+}
+
+
+
+.city-input input {
+    padding-right: 105px;
+}
+.city-block {
+    max-width: 850px;
+    margin: 0 auto;
+}
+@media(max-width: 768px){
+.city-input.withbutton button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #005ED9;
+/* Condex 3D */
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 0px 3px 3px 0px;
+    height: 100%;
+    border: none;
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 15px;
+/* or 125% */
+    align-items: center;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    padding: 0px 0px 1px 0;
+}
+}
+@media(min-width: 769px){
+.city-block {
+    position: static;
+    padding-top: 25px;
+}
+
+p.city-block-head {
+    margin-bottom: 15px;
+}
+
+button.close-city {
+    width: 76px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: 22px;
+    background-color: #F5F5F7;
+    top: 0;
+    right: 0;
+}
+}
+section.city_1.pp button{
+    display: none;
+}
+@media(min-width: 769px){
+.city-input.withbutton button {
+    background: #005ED9;
+}
+
+.city-input input {
+    max-width: 630px;
+}
+
+.city-input button {
+    background: #A7A7AB;
+    -webkit-box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    max-width: 190px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: -1px;
+    border: none;
+    margin-left: 25px;
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 12px;
+    /* float: right; */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    padding: 0px 0 0px 0;
+}
+
+
+
+section.city_1.pp button {
+    display: inline-block !important;
+}
+}

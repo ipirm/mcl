@@ -1,0 +1,59 @@
+div(class="auth")
+ div(class="auth-block")
+  div(class="auth-head")
+   ul
+    li(class='act')
+     span Авторизация
+    li
+     span Регистрация
+  div(class="auth-body")
+   div(class="auth-item act") 
+    form
+     div
+      label(class="auth-label")
+       p Email
+       div(class="auth-delete")
+        input(type='email', class='auth-input reg-inp')
+        span
+      label(class="auth-label")
+       p 
+        | Пароль
+        a(href="forgot_pass.html", class="forget-pass") Забыли пароль?
+       div(class="auth-delete")
+        input(type='password', class='auth-input reg-inp')
+        span
+     label(class="auth-check")
+      input(type="checkbox")
+      span Запомнить меня
+     button(class="auth-item-button", disabled="disabled", id='dis-btn1')
+      span Войти
+   div(class="auth-item")
+    form
+     div
+      label(class="auth-label")
+       p Email
+       div(class="auth-delete")
+        input(type='email', class='auth-input reg-inp2')
+        span
+      label(class="auth-label")
+       p
+        | Пароль
+        span(id="pass-check", class='pass-check1')
+       div(class="auth-delete")
+        input(type='password', class='auth-input reg-inp2' oninput='checkPassword(this)')
+        span
+       div(id="progress-bar" class='progress-bar1')
+      label(class="auth-label")
+       p Дата рождения
+       div(class="auth-delete")
+        input(type='text', class='auth-input reg-inp2', id='date-input', value="__.__.____")
+        span
+     label(class="auth-check")
+      input(type="checkbox")
+      span
+       | Согласен 
+       a(href="#") с политикой обработки персональных данных
+     button(class="auth-item-button", disabled="disabled", id='dis-btn2')
+      span Зарегистрироваться
+   
+

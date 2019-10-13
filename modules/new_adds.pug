@@ -1,0 +1,93 @@
+div(class="new-adds-block")
+ a(href="index.html", class='close-page')
+ h3(class="account-block-head") Добавление объявления
+ div(class="new-adds-form")
+   div(class="new-adds-form-input")
+    p
+     | Заголовок
+     i *
+     span(class="caunter")
+      span 0
+      | 100
+    input(type='text', class='couter-input new_adds_input caunter-input reg-inp', placeholder="Введите заголовок объявления")
+   div(class="new-adds-form-input")
+    p
+     | Тест объявления
+     i *
+     span(class="caunter")
+      span 0
+      | 500
+    textarea(class='couter-input textarea-tag reg-inp')
+   div(class="new-adds-form-input")
+    p 
+     | Теги
+     i *
+    input(type='text', id="add_tag", data-role="tagsinput", class="new_adds_input reg-inp")
+   div(class="new-adds-form-input")
+    p
+     | Местоположение
+     a(href="#", class="search-loc") Определить автоматически
+    input(type='text', value="Россия, Санкт-Петербург", class="new_adds_input reg-inp")
+   div(class="new-adds-form-input")
+    p Цена
+    input(type='text', class="price-input new_adds_input reg-inp")
+   div(class="new-adds-form-input")
+    p Фотографии
+    div(class="add_img")
+     .row
+      div(id="add_img_items")
+       .row
+
+      div(class="add_photo")
+       input(type="file", id="add_ph_inp", class="add_ph_class")
+       div Претащите фотографии сюда или кликните чтобы выбрать
+
+   div(class="new-adds-check-head")
+    label
+     input(type="checkbox")
+     div
+      p Выделить заголовок красным цветом
+      span 500 баллов
+   div(class="new-adds-check-ball")
+    label
+     input(type="radio", name='new_adds_radio')
+     div
+      | Поднять в топ на 3 часа
+      span 500 баллов
+    label
+     input(type="radio", name='new_adds_radio')
+     div
+      | Поднять в топ на 12 часов
+      span 1 500 баллов
+    label
+     input(type="radio", name='new_adds_radio')
+     div
+      | Поднять в топ на 24 часа
+      span 3 000 баллов
+    label
+     input(type="radio", name='new_adds_radio')
+     div
+      | Поднять в топ на 72 часа
+      span 5 000 баллов
+   div(class="new-adds-check-head")
+    label
+     input(type="checkbox")
+     div
+      | Опубликовать позже
+      span 500 баллов
+   div(class="limit-block")
+    p Ваш суточный лимит публикации объявлений исчерпан
+    div(class="limit-block-text")
+     | Бесплатно можно размещать не более трех объявлений в сутки. За баллы вы можете опубликовать объявление сейчас или в назначенное время.
+   div(class="new-adds-check-button")
+    .row
+     button(class="new-adds-button-l", disabled="disabled", id='dis-btn1')
+      div
+       | Опубликовать
+       br
+       |сейчас за 500 баллов
+     button(class="new-adds-button-r")
+      div
+       | Сохранить
+       br
+       |в черновиках

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('../font/PT_Root_UI_Regular/PT_Root_UI_Regular.eot');
+  src:
+       url('../font/PT_Root_UI_Regular/PT_Root_UI_Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/PT_Root_UI_Regular/PT_Root_UI_Regular.woff2') format('woff2'),
+       url('../font/PT_Root_UI_Regular/PT_Root_UI_Regular.woff') format('woff'),
+       url('../font/PT_Root_UI_Regular/PT_Root_UI_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+	font-family: 'PTRootUIMedium';
+	src: url('../font/PT_Root_UI_Medium/PT_Root_UI_Medium.eot');
+	src:
+	     url('../font/PT_Root_UI_Medium/PT_Root_UI_Medium.eot?#iefix') format('embedded-opentype'),
+	     url('../font/PT_Root_UI_Medium/PT_Root_UI_Medium.woff2') format('woff2'),
+	     url('../font/PT_Root_UI_Medium/PT_Root_UI_Medium.woff') format('woff'),
+	     url('../font/PT_Root_UI_Medium/PT_Root_UI_Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'PTRootUIWebBold';
+	src: url('../font/PT_Root_UI_Bold/PT_Root_UI_Bold.eot');
+	src:
+	     url('../font/PT_Root_UI_Bold/PT_Root_UI_Bold.eot?#iefix') format('embedded-opentype'),
+	     url('../font/PT_Root_UI_Bold/PT_Root_UI_Bold.woff2') format('woff2'),
+	     url('../font/PT_Root_UI_Bold/PT_Root_UI_Bold.woff') format('woff'),
+	     url('../font/PT_Root_UI_Bold/PT_Root_UI_Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

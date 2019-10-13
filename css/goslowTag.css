@@ -1,0 +1,26 @@
+/* 
+    # make sure the font-size of [goslowTag .tagUp] and [.goslowTag .tagSelect] matches your input field or textarea font-size
+*/
+.goslowTag .tagUp{
+	position: absolute;
+	padding-top: 14px;
+    font-size: 20px;
+    font-weight: normal;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: transparent;
+}
+
+.goslowTag .tagSelect{
+    font-size: 20px;
+}
+
+/*
+    tweak this to decorate your hastag
+*/
+.goslowTag .hashtag{
+    font-weight: 500;
+    color: red;
+	white-space: pre-wrap;
+}

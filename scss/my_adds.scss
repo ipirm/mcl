@@ -1,0 +1,290 @@
+.my_adds_heads ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+span.card-info-text {
+    display: block;
+    font-family: PT Root UI;
+    font-size: 13px;
+    line-height: 20px;  /* identical to box height, or 154% */
+    color: #76767A; 
+}
+
+.my_adds_heads ul li a {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004DB2;
+}
+
+.my_adds_heads ul li span {
+    color: #7e7e82;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.my_adds_heads li {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    top: -4px;
+}
+
+.my_adds_heads {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D9D9DE;
+}
+
+.my_adds_heads ul:after {content: "";display: block;clear: both;}
+
+.my_adds_heads li:last-child {
+    margin-right: 0 !important;
+}
+
+.my_adds_heads li.act {}
+
+.my_adds_heads ul li a.act {
+    color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+.my_adds_heads {}
+
+.my_adds_body {
+    padding-top: 15px;
+}
+
+button.eddit_btn.my_adds_btn {
+    background-image: url('../images/edit.svg') !important;
+}
+
+button.my_adds_btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    border-radius: 3px;
+    width: 45px;
+    padding: 0 !important;
+    display: inline-block;
+    height: 45px;
+    margin-right: 1px;
+}
+button.my_adds_btn:last-child {
+    margin-right: 0 !important;
+}
+span.card-location.my_adds {
+    display: inline-block;
+}
+
+.content-block.my-addss-page {
+    width: 79.8%;
+}
+
+button.delete_btn.my_adds_btn {
+    background-image: url('../images/delete.svg');
+}
+
+.card-price.my_adds {
+    padding-right: 3px !important;
+    padding-top: 1px;
+}
+
+.card-info.myadds {
+    padding-left: 34px;
+}
+
+.my_adds_item {
+    padding-top: 20px;
+}
+
+.my_adds_body {
+    height: 505px;
+}
+
+.card-price.my_adds div {
+    display: inline-block;
+    margin-right: 25px;
+}
+.card-price.my_adds .card-location {
+    position: relative;
+    top: -2px;
+}
+.my_adds_item.withborder {
+    border-top: none;
+    border-bottom: 1px solid #D9D9DE;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+button.up_btn.my_adds_btn {
+    background-image: url(../images/up2.svg) !important;
+}
+.my_adds_item.withborder:last-child {
+    border: none !important;
+}
+
+.card-info.myadds p.card-info-p {
+    margin-bottom: 6px;
+}
+.my_adds_item .card-star span {
+    background-position: left 0 !important;
+}
+
+.card-info.myadds .card-info-img {
+    position: relative;
+    top: -1px;
+}
+.card-price.my_adds p.card-price-p {
+    position: relative;
+    top: -2px;
+}
+.my_adds_item.withborder {
+    margin-bottom: -1px;
+} 
+.content-block.my-addss-page.col-md-9 {
+    padding-left: 7px !important;
+}
+@media(min-width:769px){
+
+.card-mob-btn {
+    display: none;
+}
+}
+@media(max-width:1101px){
+.card-info.myadds {
+    width: 50%;
+}
+.card-price.my_adds {
+    width: 40%;
+}
+}
+@media(min-width:769px){
+    .my_adds_button {
+    display: none;
+}
+}
+@media(max-width: 768px){
+
+
+
+
+.content-block.my-addss-page.col-md-9 {
+    padding-left: 0 !important;
+    width: 100% !important;
+}
+
+.my_adds_block {
+    padding-top: 5px;
+}
+
+.my_adds_heads li {
+    margin-right: 30px;
+}
+
+.my_adds_heads li:nth-child(4) {
+    display: none;
+}
+
+.my_adds_heads li:nth-child(2) {
+    margin-right: 5px;
+}
+
+.my_adds_heads li:nth-child(3) {
+    margin-right: 0 !important;
+}
+
+.my_adds_body {
+    height: auto !important;
+    padding-top: 5px;
+}
+
+
+
+.my_adds_button {
+    max-width: 375px;
+    margin-bottom: 38px;
+}
+
+.my_adds_item.withborder {
+    padding-bottom: 30px;
+    padding-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+.card-info.myadds {
+    padding-left: 4px;
+    width: 91% !important;
+}
+
+.my_adds_item .card-star {
+    padding-top: 3px;
+    width: 9%;
+}
+
+.card-price.my_adds {
+    display: none;
+}
+
+.card-info.myadds .card-time.mob {
+    margin-bottom: 11px;
+}
+
+.card-info.myadds .card-price.mob {
+    padding-top: 2px;
+}
+
+.card-mob-btn {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card-mob-btn button {
+    width: 49%;
+    margin-right: 2%;
+    float: left;
+    display: block;
+}
+
+.card-mob-btn button:last-child {
+    margin-right: 0 !important;
+}
+
+.card-mob-btn:after {content: "";display: block;clear: both;}
+
+span.card-info-text {
+    margin-bottom: 10px;
+}
+
+a.card-location.my_adds.withoutprice {
+    margin-top: 28% !important;
+}
+}
+@media(max-width: 330px){
+a.card-location.my_adds.withoutprice {
+    margin-top: 0% !important;
+}
+
+}
+@media(max-width: 371px){
+
+.my_adds_heads li {
+    margin-right: 10px !important;
+}
+
+.my_adds_heads ul li a {
+    font-size: 10px;
+}
+}

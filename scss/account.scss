@@ -1,0 +1,711 @@
+.leftnav-menu a:nth-child(1){
+    background: url('../images/menu/img1.svg')no-repeat;
+}
+.leftnav-menu a.act:nth-child(1) {
+    background: url(../images/menu/img1-hov.svg) no-repeat;
+}
+.leftnav-menu a:nth-child(2){
+    background: url('../images/menu/img2.svg')no-repeat;
+    background-position-x: 0 !important;
+}
+.leftnav-menu a.act:nth-child(2) {
+    background: url(../images/menu/img2-hov.svg) no-repeat;
+}
+.leftnav-menu a:nth-child(3){
+    background: url('../images/menu/img3.svg')no-repeat;
+    background-position-x: 2px !important;
+}
+.leftnav-menu a.act:nth-child(3) {
+    background: url(../images/menu/img3-hov.svg) no-repeat;
+}
+.leftnav-menu a:nth-child(4){
+    background: url('../images/menu/img4.svg')no-repeat;
+    
+}
+.leftnav-menu a:nth-child(5){
+    background: url('../images/menu/img5.svg')no-repeat;
+    background-position-x: 0px !important;
+}
+.leftnav-menu a:nth-child(6){
+    background: url('../images/menu/img6.svg')no-repeat;
+    background-position-x: 2px !important;
+}
+.leftnav-menu a {
+    display: block;
+    margin-bottom: 10px;
+    font-family: PT Root UI;
+    text-decoration: none;
+    font-size: 16px;
+    background-position: 1px center !important;
+    line-height: 40px; 
+    padding-left: 29px;
+    letter-spacing: -0.01em; 
+    color: #333333;
+}
+
+.leftnav-menu {
+    padding-top: 30px;
+    padding-right: 42px;
+}
+
+.leftnav-menu a.act {
+    color: #005ED9;
+    font-weight: bold;
+}
+
+.account-block-head {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin: 0 !important;
+}
+
+
+.account-label {
+    display: block;
+    margin: 0 !important;
+}
+
+.account-label p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px; 
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.account-label p span {
+    color: #D51A1A;
+    float: right;
+    letter-spacing: normal !important;
+}
+
+.account-form {
+    margin-top: 29px;
+}
+
+span.verification.act {
+    background: url(../images/сheck3.svg) no-repeat;
+    color: #44B62D !important;
+    padding-left: 15px;
+    background-position: left center;
+}
+
+.account-label input {
+    background: #ffffff; 
+    border: 1px solid #D4D4D9;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 300px;
+    height: 50px;
+    font-family: PT Root UI;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;  /* identical to box height, or 167% */
+    padding: 0 0 0 14px;
+    letter-spacing: -0.01em;
+    color: rgb(0, 0, 0);
+}
+.account-label input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.3);
+}
+.account-label input::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.3);
+}
+.account-label input:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.3);
+}
+.account-label input:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.account-form-right span {
+    font-family: PT Root UI;
+    font-size: 13px;
+    max-width: 300px;
+    line-height: 20px;
+    padding-top: 5px;
+    display: block;
+    letter-spacing: -0.01em;
+    color: #76767A;
+}
+
+.account-form-right {
+    padding: 30px 0px 0 30px;
+}
+
+.row.account-form-item {
+    padding-bottom: 30px ;
+}
+
+.account-label input:focus {
+    background: #FFFFFF;
+    outline: none;
+}
+button.account-button {
+    background: #ffffff;
+    border: 1px solid #D4D4D9;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 190px;
+    text-align: center;
+    height: 50px;
+}
+
+button.account-button div {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 14px;  /* or 125% */
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;    /* Icon, Text Gray */
+    color: #76767A;
+}
+
+.row.account-form-item:last-child {
+    padding:0 !important;
+}
+
+.account-form-btn {
+    max-width: 190px;
+}
+
+.password-block {
+    margin-top: 61px;
+}
+
+.account-pass {
+    margin-right: 30px;
+}
+
+.account-pass:last-child {
+    margin-right: 0 !important;
+}
+
+.account-form-block.row {
+    margin-bottom: -9px !important;
+}
+
+.account-form-btn button {
+    margin-top: 30px;
+}
+
+.account-form-btn button span {
+    display: block;
+}
+
+.account-block-filt {
+    margin-top: 60px;
+}
+
+.account-filtr {
+    margin-top: 29px;
+}
+
+.account-block-filt span {
+    padding-left: 40px !important;
+}
+
+.account-photo-bl {
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 58px;
+    border-radius: 100%;
+    width: 190px;
+    height: 190px;
+}
+
+
+
+.account-block-left {
+    border-right: 1px solid #DDDDE1;
+    padding: 0 69px 0 0;
+    padding-top: 31px;
+}
+
+.account-block-right {
+    padding-left: 70px;
+}
+
+.account-photo p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.account-photo {
+    margin-top: 95px;
+}
+
+.account-photo-bl img {
+    display: block;
+    width: 76px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+button.account-button input {
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+button.account-button {
+    position: relative;
+}
+
+
+section.content.account-page {
+    padding-bottom: 47px;
+}
+.account-form-btn button {
+    padding: 0 0 1px 0;
+}
+.leftnav2 {
+    padding: 0 63px 0 0;
+    border: none !important;
+}
+.content-block2 {
+    padding: 0px 0 0 7px;
+}
+.leftnav-menu {
+    padding-top: 30px;
+    padding-right: 42px;
+    border-right: 1px solid #DDDDE1;
+}
+
+@media(max-width:1301px){
+.account-block-right {
+    padding-left: 5px;
+}
+.account-block-left {
+    padding-right: 5px;
+}
+}
+@media(max-width:1140px){ 
+
+
+
+
+.account-block-right {
+    width: 100%;
+}
+
+.account-photo {
+    max-width: 191px;
+    margin: 0 auto;
+}
+
+.account-block-left {
+    width: 100%;
+    border: none !important;
+}
+.leftnav2.col-md-3 {
+    padding-right: 10px;
+}
+
+.leftnav-menu {
+    padding-right: 10px;
+}
+}
+
+@media (max-width: 768px){
+.mobile-cod-block {
+    margin-top: 0 !important;
+}
+.leftnav-menu {
+    display: none !important;
+}
+
+.content-block2 {
+    padding: 0  !important;
+}
+
+.account-block-right {
+    padding: 5px 0 19px 0 !important;
+    /* background: #E5E5EB; */
+    width: 100% !important;
+    /* margin-left: -15px; */
+    /* margin-right: -14px !important; */
+}
+
+.password-block h3.account-block-head {
+    margin-bottom: 30px !important;
+}
+
+.account-form {
+    margin-top: 20px;
+}
+
+.row.account-form-item {
+    display: block !important;
+}
+
+.account-block-left {
+    padding-right: 0 !important;
+}
+
+.account-form-left {
+    max-width: 500px;
+}
+
+.account-form-right {
+    padding: 5px 0 0 0;
+    max-width: 500px;
+}
+
+.account-label input {
+    width: 100%;
+}
+
+.account-form-right button.account-button {
+    margin-top: 5px;
+}
+
+.account-form-btn {
+    max-width: 500px;
+    margin-top: -5px;
+    margin-bottom: -1px;
+}
+
+.account-pass {
+    margin-right: 0 !important;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.account-form-block.row {
+    display: block !important;
+}
+
+.account-pass:last-child {
+    margin-top: -10px !important;
+    margin-bottom: 39px;
+}
+
+.account-block-filt {
+    margin-top: 61px !important;
+}
+
+.account-filtr {
+    margin-top: 30px !important;
+}
+
+section.content.account-page {
+    padding-bottom: 41px !important;
+}
+
+}
+
+p.mobile-cod-block-p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    margin: 0 0 10px 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.mobile-cod-block {
+    margin-top: -30px;
+}
+
+.mobile-cod-input {
+    background: #FFFFFF;
+/* Line */
+    box-sizing: border-box;
+    border-radius: 3px;
+    max-width: 190px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.mobile-cod-input input {
+    width: 100%;
+    border: 1px solid #D4D4D9;
+    height: 100%;
+    font-family: PT Root UI;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.01em;
+
+/* Icon, Text Gray */
+    color: #76767A;
+    padding: 0px 50px 2px 14px;
+}
+
+button.mobile-cod-btn {
+    position: absolute;
+    font-family: PT Root UI;
+    font-size: 12px;
+    background: white;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #76767A;
+    right: 1px;
+    border-left: 1px solid #D9D9DE;
+}
+
+.mobile-cod-btn2 button {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 15px;
+/* or 125% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #005ED9;
+    font-weight: bold;
+    max-width: 80px;
+    background: transparent;
+    border: none !important;
+    outline: none;
+    position: relative;
+    top: -9px;
+}
+
+.mobile-cod-btn2 {
+    display: inline-block;
+    /* margin-top: -8px; */
+    padding-left: 10px;
+}
+button.account-button.act {
+    display: none;
+}
+
+.mobile-cod-block.act {
+    display: block !important;
+}
+
+.mobile-cod-block {
+    display: none;
+}
+
+
+.account-photo-change p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.account-photo-change-block {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.account-photo-change-block img {
+    width: 190px;
+    height: 190px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: none !important;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  background-image: url(../images/Ellipse.svg);
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -11px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+ 
+}
+input[type=range]::-moz-range-thumb {
+  border: none !important;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  background-image: url(../images/Ellipse.svg);
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -12px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+}
+
+
+.account-photo-range {
+    margin-top: 13px;
+}
+
+.account-photo-btn {
+    margin-top: 14px;
+}
+
+button.account-button-blue {
+    background: #005ED9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 190px;
+    border: none !important;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    display: block;
+}
+
+button.account-button-blue div {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+}
+.account-photo-change-bl:after {
+    content: "";
+    display: block;
+    width: 200%;
+    position: absolute;
+    background: transparent;
+    border-radius: 100%;
+    border: 115px solid #00000069;
+    overflow: hidden;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: 50;
+}
+
+.account-photo-change-block {
+    position: relative;
+}
+
+.account-photo-change-bl {
+    position: relative;
+    overflow: hidden;
+}
+
+button.delete-image-range {
+    width: 16px;
+    border: none;
+    height: 16px;
+    position: absolute;
+    background: url(../images/Cancel6.svg);
+    right: 15px;
+    background-size: 16px;
+    background-position: center center;
+    top: 15px;
+    cursor: pointer;
+    z-index: 100;
+}
+.account-photo-change-bl {
+    width: 190px;
+    height: 190px;
+}
+@media(max-width: 768px){
+div#add_img_items .row div {
+    width: 165px !important;
+    height: 165px !important;
+    margin-right: 15px !important;
+}
+
+div#add_img_items .row div:nth-child(2n) {
+    margin-right: 0 !important;
+}
+.add_photo.act {
+    width: 165px !important;
+    height: 165px !important;
+    margin-top: 15px !important;
+}
+}
+.account-photo-change {
+    display: none;
+}
+
+.account-photo-change.act {
+    display: block !important;
+}
+
+
+.account-photo.act {
+    display: none;
+}
+.account-photo-change {
+    max-width: 190px;
+    margin: 0 auto;
+}

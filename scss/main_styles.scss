@@ -1,0 +1,116 @@
+div#add_img_items .row div input {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    display: none;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+button:focus{
+    outline:none;
+}
+.center{
+	max-width:1294px;
+	margin:0 auto;
+}
+.no-padding{
+	padding:0 !important;
+}
+.center .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+@media(max-width:1300px){
+	.center{
+	padding:0 10px;
+}
+}
+@media(max-width:768px){
+    .center{
+    padding:0 15px !important;
+}
+}
+.auth-input.act {
+    border-color: #D51A1A !important;
+}
+.auth-input.act:focus{
+    outline: none;
+}
+
+
+section.content {
+    border-bottom: 1px solid #D9D9DE;
+}
+
+section.content.favort .content-block {
+    padding-top: 16px;
+    padding-bottom: 78px;
+}
+
+section.content.favort .card-price {
+    padding-right: 3px !important;
+}
+
+section.content.favort {
+    padding-bottom: 31px;
+}
+
+
+.leftnav{
+    padding: 0 61px 0 0;
+    border: none !important;
+}
+
+.leftnav-block {
+    border-right: 1px solid #DDDDE1;
+    padding-right: 69px;
+}
+
+.content-block.col-lg-8 {
+    padding-left: 9px;
+    padding-right: 3px;
+}
+
+.content-block.col-lg-8 .card-item {
+    padding-right: 5px;
+}
+.fitr-block {
+    max-width: 850px;
+}
+.fitr-block:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+#datepickers-container .-selected- {
+   background: #EF984C;
+   color: #fff !important;
+}#datepickers-container .-current- {
+   color: #EF984C;
+}
+#datepickers-container .datepicker--time-sliders > *:not(:first-child) {
+   margin-top: 9px;
+   margin-bottom: 6px;
+}#datepickers-container .datepicker--time-sliders > *:first-child {
+   margin-top: 6px;
+}
+#datepickers-container input[type=range]::-webkit-slider-thumb {
+   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+   border: 0px;
+   height: 22px;
+   width: 22px;
+   border-radius: 5px;
+   background: #EF984Cee;
+   cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: -11px;
+}

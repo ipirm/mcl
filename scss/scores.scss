@@ -1,0 +1,255 @@
+.scores-head span {
+    display: block;
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.scores-head p {
+    margin: 0;
+    font-weight: bold;
+    font-family: PT Root UI;
+    font-size: 64px;
+    line-height: 70px;  /* identical to box height, or 109% */
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+
+p.scores-block-p {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;  /* identical to box height, or 125% */
+    letter-spacing: -0.01em;
+    /* margin: 0 !important; */
+    margin-bottom: 29px;
+    color: #000000;
+}
+
+.scores-block {
+    margin-top: 31px;
+}
+
+.scores-img {
+    width: 40px;
+    height: 40px;
+}
+
+.scores-img img {
+    width: 100%;
+}
+
+.scores-row.row {}
+
+.scores-text p {
+    font-family: PT Root UI;
+    font-size: 16px;
+    margin-bottom: 11px;
+    line-height: 20px;  /* or 125% */
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.scores-text span {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;  /* identical to box height, or 125% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+}
+
+.scores-text {
+    /* max-width: 116px; */
+    margin-top: 15px;
+}
+
+.scores-item {
+    margin-right: 50px;
+    width: 170px;
+    margin-bottom: 59px;
+}
+
+.scores-item:nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+.scores-table-date {
+    padding: 0 0 0 0;
+}
+
+.scores-table-date span {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    color: #76767A;
+    display: block;
+}
+
+.scores-table {
+    padding-top: 35px;
+}
+
+.scores-table-text {
+    padding: 0 0 0 30px;
+}
+
+.scores-table-text span {
+    font-family: PT Root UI;
+    font-size: 17px;
+    line-height: 20px;  /* identical to box height, or 118% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+}
+
+.scores-table-pound {
+    padding: 0 3px 0 0;
+}
+
+.scores-table-pound span {
+    font-family: PT Root UI;
+    font-size: 17px;
+    line-height: 20px;  /* identical to box height, or 118% */
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+}
+
+.scores-table-item {
+    border-bottom: 1px solid #D9D9DE;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+}
+
+.scores-table-item:last-child {
+    border-bottom: none !important;
+}
+
+
+.scor_body {
+    padding-top: 15px;
+}
+
+section.content.scores {
+    padding-bottom: 0px;
+}
+
+.scores-row.row {
+    margin-bottom: -7px !important;
+}
+section.content.score2 {
+    padding-bottom: 32px;
+}
+
+.scores-table {
+    height: 548px;
+}
+@media(max-width: 1150px){
+    .scores-item {
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 1000px){
+.scores-item {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.scores-item:nth-child(4n) {
+    margin-right: 10px !important;
+}
+
+.scores-item:nth-child(3n) {
+    margin-right: 0;
+}
+}
+@media(max-width: 768px){
+    
+
+p.scores-block-p {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.scores-block {
+    margin-top: 30px;
+}
+
+
+p.scores-block-p {
+    margin-bottom: 20px;
+}
+
+.scores-item {
+    margin-right: 0;
+    width: 50% !important;
+    /* width: 50%; */
+}
+
+.scores-item:nth-child(3n) {}
+
+.scores-item:nth-child(2n) {
+    padding-left: 5px;
+}
+
+.scores-item:nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+.scores-text {
+    max-width: 200px;
+}
+.my_adds_heads.scor-p li:nth-child(2) {
+    margin-right: 30px;
+}
+.scores-table {
+    padding-top: 0px;
+}
+
+.scores-table-text {
+    padding-left: 0;
+    padding-top: 0px;
+    width: 80%;
+}
+
+.scores-table-text span {
+    font-family: PT Root UI;
+    font-size: 15px;
+    line-height: 20px;
+/* identical to box height, or 133% */
+    letter-spacing: -0.01em;
+    font-weight: bpld !important;
+}
+
+.scores-table-pound {
+    width: 20%;
+    padding-right: 0;
+}
+
+.scores-table-pound span {
+    position: relative;
+    top: -10px;
+}
+
+.scores-table-item {
+    padding-bottom: 15px;
+    margin-bottom: 14px;
+}
+.scores-table {
+    height: auto !important;
+    padding-bottom: 22px;
+}
+}
+
+
+

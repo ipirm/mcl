@@ -1,0 +1,197 @@
+.datepicker--nav-title {
+    font-family: PT Root UI;
+    font-size: 17px;
+    line-height: 20px;
+/* identical to box height, or 118% */
+    padding-right: 10px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+    font-weight: bold;
+}
+@media(min-width:769px){
+    div#datepickers-container {
+    width: 300px;
+    padding: 20px 5px 30px 10px;
+    }
+}
+@media(max-width:768px){
+    div#datepickers-container {
+    width: 345px;
+    padding: 20px 30px 30px 30px;
+    }
+}
+@media(max-width:370px){
+   div#datepickers-container {
+    width: 300px;
+    padding: 20px 30px 30px 30px;
+    } 
+}
+div#dateprice {
+    background: #FFFFFF;
+/* Modal shadow small */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.datepicker {
+    border: none;
+    width: 100%;
+}
+
+.datepicker--nav-title i {
+    color: black !important;
+    margin-left: 2px;
+    position: relative;
+}
+
+.datepicker--nav-title i:before {
+    display: block;
+    width: 3px;
+    height: 8px;
+    position: absolute;
+    background: white;
+    content: "";
+    bottom: 0px;
+    left: -6px;
+}
+
+.datepicker--nav-action path {
+    stroke: transparent;
+    /* stroke-width: 2px; */
+}
+
+path {}
+
+.datepicker--nav-action {
+    width: 10px;
+    /* height: 10px; */
+    background: url(images/prev-pop.svg)no-repeat;
+    background-position: 0 center;
+    background-size: 8px;
+}
+
+nav.datepicker--nav {
+    padding: 4px 19px 0 21px;
+    border-color: transparent !important;
+}
+
+.datepicker--nav-action:last-child {
+    transform: rotate(180deg);
+    background-position: 0px center !important;
+}
+
+.datepicker--content {
+    padding: 13px 20px 0 20px;
+}
+
+.datepicker--day-name {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.datepicker--day-name.-weekend- {
+    color: #E52D2D !important;
+}
+
+.datepicker--cell.datepicker--cell-day.-other-month- {
+    background: #F5F5F7;
+    border-radius: 0 !important;
+}
+
+.datepicker--cell.datepicker--cell-day {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    width: 35px !important;
+    height: 35px !important;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.datepicker--days-names {
+    margin-bottom: 7px;
+}
+
+.datepicker--cell.datepicker--cell-day.-weekend- {
+    color: #E52D2D !important;
+}
+
+.datepicker--cell.datepicker--cell-day.-weekend- {}
+
+.datepicker--cell.datepicker--cell-day.-selected- {
+    border-radius: 20px !important;
+    background: #005ED9 !important;
+    color: white !important;
+}
+
+select.seldate {
+    height: 50px;
+    width: 49%;
+    margin-right: 2%;
+    font-family: PT Root UI;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 1px 14px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    background: #FFFFFF;
+/* Line */
+    border: 1px solid #D4D4D9;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: url(../images/date-sel.svg)no-repeat;
+    background-position: 86% center;
+}
+
+.datepicker--custom {
+    padding: 10px 20px 0 20px;
+}
+
+select.seldate:nth-child(2) {
+    margin-right: 0 !important;
+}
+select.seldate {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.datepicker--custom button {
+    display: block;
+    width: 100%;
+    background: #005ED9;
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    height: 50px;
+    border: none !important;
+    text-transform: uppercase !important;
+    margin-top: 10px;
+    padding: 0px 0 0px 0;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.datepicker--custom button:hover {
+    background: #004DB2;
+    transition: all 0.3s ease;
+}
+
+.datepicker--custom button:focus {
+    background: #0C6CEB;
+    transition: all 0.3s ease;
+}

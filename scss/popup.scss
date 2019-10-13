@@ -1,0 +1,141 @@
+.popup {
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    padding-top: 100px;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+}
+
+.popup-text p {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 19px;
+    margin-top: 6px;
+}
+
+.popup-text span {
+    font-family: PT Root UI;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    display: block;
+    color: #333333;
+    margin-bottom: 26px;
+}
+
+.popup label.auth-check {
+    margin-bottom: -7px;
+}
+
+
+@media(min-width:769px){
+    .popup {
+    display: none;
+}
+}
+.popup-message {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    max-width: 375px;
+    height: 667px;
+    background: white !important;
+    padding: 0;
+    overflow: hidden;
+}
+
+.message-text .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.popup-message .message-user-img {
+    width: 30px;
+    height: 30px;
+}
+
+.message-item-popup {
+    padding: 0 15px 0 15px;
+}
+
+.popup-message .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.popup-message .send-textarea textarea {
+    width: auto;
+    max-width: 250px !important;
+    padding-right: 0;
+}
+
+.popup-message .send-btn button {
+    width: auto !important;
+    max-width: 100px !important;
+    padding-left: 20px;
+}
+.popup-message .message-user-text {
+    max-width: 83%;
+}
+
+.popup-message .message-user-text-item {
+    padding-right: 20px;
+}
+.popup-message-head {
+    padding: 10px 40px 5px 15px;
+    background: white;
+    border-bottom: 1px solid #D4D4D9;
+    margin-left: -15px;
+    margin-right: -15px;
+    min-height: 50px;
+}
+
+.popup-message-head span {
+    font-family: PT Root UI;
+    font-size: 15px;
+    line-height: 16px;
+/* or 107% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+}
+
+button.close-mesage-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: none !important;
+    background-color: #F5F5F7;
+    box-shadow: inset 0px -1px 0px #D4D4D9;
+    background-image: url(../images/Cancel5.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center center !important;
+}
+
+.popup-message .scrool-bl::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;}
+.popup-message .scrool-bl::-webkit-scrollbar-button {  display:none; }
+.popup-message .scrool-bl::-webkit-scrollbar-track {  background-color: transparent;position: absolute;}
+.popup-message .scrool-bl::-webkit-scrollbar-track-piece { background-color: #ffffff;position: absolute;}
+.popup-message .scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;position: absolute;}
+.popup-message .scrool-bl::-webkit-scrollbar-corner { background-color: #999;position: absolute;}
+.popup-message .scrool-bl::-webkit-resizer { background-color: #666;position: absolute;}
+@media (min-width: 769px){
+.popup-message {
+    display: none;
+}
+}
+@media (max-width: 768px){
+.popup-message.act {
+    display: block !important;
+}
+}

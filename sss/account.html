@@ -1,0 +1,198 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head></head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <body>
+    <header>
+      <div id="head-fix">
+        <div class="logo-blocks">
+          <div class="center">
+            <div class="row">
+              <div class="logo-bl-small"><a href="index.html" id="logo-small"></a></div>
+              <div class="fixed-btn">
+                <button>
+                  <div>Добавить объявление</div>
+                </button>
+              </div>
+              <div class="logo-bl"><a href="index.html" id="logo"></a></div>
+              <div class="location-block"><a href="#"><span>Россия, Санкт-Петербург</span></a></div>
+              <div class="search-block-fixed">
+                <button></button>
+              </div>
+              <div class="search-block">
+                <div class="search-item">
+                  <div class="search-input">
+                    <input typy="text"/>
+                    <button></button>
+                  </div>
+                  <button class="search-btn"><span>Найти</span></button>
+                </div>
+              </div>
+              <div class="message-block">
+                <button class="message-btn"></button>
+                <button class="star-btn"></button>
+              </div>
+              <div class="account-block">
+                <div class="row">
+                  <div class="account-text">
+                    <p>Баллов</p><span>1 900</span>
+                  </div>
+                  <div class="account-btn">
+                    <button></button>
+                    <div class="menu"><a href="account.html">Общие данные</a><a href="#">Сообщения</a><a href="my_adds.html">Мои объявления</a><a href="#">Избранные</a><a href="#">Мои баллы</a><a href="#">Выход</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="content">
+      <div class="center">
+        <div class="row">
+          <div class="leftnav">
+            <div class="leftnav-menu"><a class="act" href="account.html">Общие данные</a><a href="#">Сообщения</a><a href="my_adds.html">Мои объявления</a><a href="#">Избранные</a><a href="#">Мои баллы</a><a href="#">Выход</a></div>
+          </div>
+          <div class="content-block"> 
+            <div class="account-page-block row">
+              <div class="account-block-left">
+                <h3 class="account-block-head">Общие данные</h3>
+                <div class="account-form">
+                  <form>
+                    <div>
+                      <div class="row account-form-item">
+                        <div class="account-form-left">
+                          <label class="account-label">
+                            <p>Email<span class="verification act">верифицирован</span></p>
+                            <div class="auth-delete">
+                              <input class="auth-input" type="email" placeholder="username@gmail.com"/><span></span>
+                            </div>
+                          </label>
+                        </div>
+                        <div class="account-form-right"><span>Адрес почты и телефон не показываются другим пользователям.</span></div>
+                      </div>
+                      <div class="row account-form-item">
+                        <div class="account-form-left">
+                          <label class="account-label">
+                            <p>Ваше имя</p>
+                            <div class="auth-delete">
+                              <input class="auth-input" type="text"/><span></span>
+                            </div>
+                          </label>
+                        </div>
+                        <div class="account-form-right"><span>Имя отображается другим пользователям в чатах во время переписки.</span></div>
+                      </div>
+                      <div class="row account-form-item">
+                        <div class="account-form-left">
+                          <label class="account-label">
+                            <p>
+                               Телефон<span class="verification">Не верифицирован</span></p>
+                            <div class="auth-delete">
+                              <input class="auth-input" type="text" id="phone-input" value="+7 (___) ___-__-__"/><span></span>
+                            </div>
+                          </label>
+                        </div>
+                        <div class="account-form-right">
+                          <button class="account-button">
+                            <div>Отправить КОд   </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="row account-form-item">
+                        <div class="account-form-left">
+                          <label class="account-label">
+                            <p>Дата рождения</p>
+                            <div class="auth-delete">
+                              <input class="auth-input" type="text" id="date-input" value="__.__.____"/><span></span>
+                            </div>
+                          </label>
+                        </div>
+                        <div class="account-form-right"> </div>
+                      </div>
+                    </div>
+                    <div class="account-form-btn">
+                      <button class="auth-item-button"><span>Сохранить</span></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="account-block-right">
+                <div class="account-photo">
+                  <p>Ваше Фото</p>
+                  <div class="account-photo-bl"><img src="images/ava2.png"/></div>
+                  <button class="account-button">
+                    <div>Загрузить фото</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="password-block">
+              <h3 class="account-block-head">Изменение пароля</h3>
+              <div class="account-form">
+                <form>
+                  <div class="account-form-block row">
+                    <div class="account-pass">
+                      <label class="account-label">
+                        <p>Старый пароль</p>
+                        <div class="auth-delete">
+                          <input class="auth-input" type="password"/><span></span>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="account-pass">
+                      <label class="account-label">
+                        <p>Новый пароль</p>
+                        <div class="auth-delete">
+                          <input class="auth-input" type="password"/><span></span>
+                        </div>
+                      </label>
+                      <div class="progress-bar1" id="progress-bar"></div>
+                    </div>
+                    <div class="account-pass">
+                      <label class="account-label">
+                        <p>Новый пароль еще раз</p>
+                        <div class="auth-delete">
+                          <input class="auth-input" type="password"/><span></span>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+                <div class="account-form-btn">
+                  <button class="auth-item-button"><span>Изменить пароль</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="account-block-filt">
+              <h3 class="account-block-head">Уведомления</h3>
+              <div class="account-filtr">
+                <label class="fitr-label">
+                  <input type="checkbox"/><span>Уведомлять на Email о новых сообщениях</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot-block">
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-6 copyrith"><span>© 2019 — Modern Craiglist</span></div>
+            <div class="col-lg-6 footer-links"><a href="reg.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="#"><span>Политика обработки персональных данных</span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

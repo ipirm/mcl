@@ -1,0 +1,118 @@
+div(class="content-block2 col-md-9")
+ div
+  form
+   div(class="account-page-block row")
+    div(class="account-block-right order-lg-last order-first")
+     div(class="account-photo-change")
+      p Ваше Фото
+      div(class="account-photo-change-block")
+       button(class="delete-image-range")
+       div(class="account-photo-change-bl")
+        img(src="images/dauni.png", id="account-photo-change")
+      div(class="account-photo-range")
+       input(type="range" min="5" max="9" step="1" id="range-input")
+      div(class="account-photo-btn")
+       button(class="account-button change-photo-account")
+        input(type='file', id="account-file2")
+        div другое фото
+       button(class="account-button-blue ")
+        div Сохранить
+     div(class="account-photo")
+      p Ваше Фото
+      div(class="account-photo-bl")
+       img(src="images/ava2.png")
+      button(class="account-button", type="button")
+       input(type='file', id="account-file")
+       div Загрузить фото
+    div(class="account-block-left order-lg-first order-last")
+       h3(class="account-block-head") Общие данные
+       div(class="account-form")
+        div 
+         div
+          div(class="row account-form-item")
+           div(class="account-form-left")
+            label(class="account-label")
+             p
+              | Email
+              span(class="verification act") верифицирован
+             div(class="auth-delete")
+              input(type='email', class='auth-input reg-inp', placeholder="username@gmail.com")
+              span
+           div(class="account-form-right")
+            span Адрес почты и телефон не показываются другим пользователям.
+          div(class="row account-form-item")
+           div(class="account-form-left")
+            label(class="account-label")
+             p Ваше имя
+             div(class="auth-delete")
+              input(type='text', class='auth-input reg-inp')
+              span
+           div(class="account-form-right")
+            span Имя отображается другим пользователям в чатах во время переписки.
+          div(class="row account-form-item")
+           div(class="account-form-left")
+            label(class="account-label")
+             p 
+              | Телефон
+              span(class="verification") Не верифицирован
+             div(class="auth-delete")
+              input(type='text', class='auth-input', id='phone-input', value="+7 (___) ___-__-__")
+              span
+           div(class="account-form-right")
+            button(class="account-button add-code", type="button")
+             div Отправить КОд 
+            div(class="mobile-cod-block")
+             p(class="mobile-cod-block-p") Код из СМС
+             div(class="mobile-cod-input")
+              input(type="text", value="0000") 
+              button(class="mobile-cod-btn") ок
+             div(class="mobile-cod-btn2")
+              button Отправить повторно  
+          div(class="row account-form-item")
+           div(class="account-form-left")
+            label(class="account-label")
+             p Дата рождения
+             div(class="auth-delete")
+              input(type='text', class='auth-input', id='date-input', value="__.__.____")
+              span
+           div(class="account-form-right") 
+         div(class="account-form-btn")
+          button(class="auth-item-button", disabled="disabled", id='dis-btn1')
+           span Сохранить
+ div(class="password-block")
+  form
+    h3(class="account-block-head") Изменение пароля
+    div(class="account-form")
+      form
+       div(class="account-form-block row")
+        div(class="account-pass")
+         label(class="account-label")
+          p
+           | Старый пароль
+          div(class="auth-delete")
+           input(type='password', class='auth-input reg-inp2')
+           span
+        div(class="account-pass")
+         label(class="account-label")
+          p
+           | Новый пароль
+          div(class="auth-delete")
+           input(type='password', class='auth-input reg-inp2')
+           span
+         div(id="progress-bar" class='progress-bar1')
+        div(class="account-pass")
+         label(class="account-label")
+          p
+           | Новый пароль еще раз
+          div(class="auth-delete")
+           input(type='password', class='auth-input reg-inp2')
+           span
+      div(class="account-form-btn")
+       button(class="auth-item-button", disabled="disabled", id='dis-btn2')
+        span Изменить пароль
+ div(class="account-block-filt")
+  h3(class="account-block-head") Уведомления
+  div(class="account-filtr")
+   label(class="fitr-label")
+    input(type="checkbox")
+    span Уведомлять на Email о новых сообщениях

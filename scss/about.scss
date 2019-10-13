@@ -1,0 +1,102 @@
+.about-text-item {
+    display: block;
+    font-family: PT Root UI;
+    font-size: 18px;
+    line-height: 25px;  /* or 139% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-block {
+    padding-top: 30px;
+}
+
+.about-head h3 {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;  /* identical to box height, or 125% */
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.about-content {
+    max-width: 630px;
+}
+
+.about-head {
+    margin-right: 260px;
+}
+
+.about-text-item {}
+
+.about-img-item {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.close-page {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    right: 2%;
+    background: url(../images/Cancel5.png)no-repeat;
+    background-size: 100% 100%;
+    top: 28px;
+}
+
+section.content {
+    position: relative;
+}
+
+
+.about-content {
+    margin-bottom: -5px;
+}
+
+
+
+
+
+
+
+@media(max-width:768px){ 
+
+
+
+
+
+.about-head h3 {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.about-block {
+    padding-top: 5px;
+}
+
+.about-text-item {
+    padding-right: 2px;
+    /* line-height: 25px; */
+    /* display: inline-table; */
+}
+
+.about-content {
+    margin-top: 17px;
+}
+
+.about-img-item {
+    max-width: 247px;
+    margin: 48px auto 47px auto;
+}
+
+.about-img-item img {
+    width: 100%;
+}
+
+.about-block {
+    margin-bottom: -33px;
+}
+
+}

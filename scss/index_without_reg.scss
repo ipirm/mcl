@@ -1,0 +1,81 @@
+button.reg-block-btn-l {
+    background: #005ED9;  /* Condex 3D */
+    box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    border: none;
+    width: 240px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+.reg-block-btn-l:hover {
+    background: #004DB2;
+    transition: all 0.3s ease;
+}
+.reg-block-btn-l:focus {
+    background: #0C6CEB;
+    transition: all 0.3s ease;
+}
+.reg-block {
+    margin-left: 7px;
+}
+
+button.reg-block-btn-l div {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 15px;  /* or 125% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+button.reg-block-btn-r {
+    background: url(../images/lock.png);
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.limit-block-text a {
+    font-family: PT Root UI;
+    font-size: 16px;
+    line-height: 20px;  /* or 125% */
+    letter-spacing: -0.01em;
+    color: #004DB2;
+    font-weight: 900;
+}
+@media (max-width: 1301px){
+
+.reg-block {
+    margin-left: 10px;
+    padding: 0;
+}
+
+button.reg-block-btn-l {width: 190px;}
+}
+@media (max-width: 1080px){
+
+
+    
+
+
+button.reg-block-btn-r {
+    width: 45px;
+    margin-left: 5px;
+}
+
+button.reg-block-btn-l {
+    width: 130px;
+}
+
+.reg-block {
+    margin-left: 5px;
+}
+}

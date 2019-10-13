@@ -1,0 +1,100 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head></head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <body class="auth-b">
+    <div class="header">
+      <div class="logo-blocks">
+        <div class="center">
+          <div class="row">
+            <div class="logo-auth"><a href="index.html" id="logo"></a></div>
+            <div class="close-auth"><a href="index.html">
+                <button></button></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="auth">
+      <div class="auth-block">
+        <div class="auth-head">
+          <ul>
+            <li class="act"><span>Авторизация</span></li>
+            <li><span>Регистрация</span></li>
+          </ul>
+        </div>
+        <div class="auth-body">
+          <div class="auth-item act"> 
+            <form>
+              <div>
+                <label class="auth-label">
+                  <p>Email</p>
+                  <div class="auth-delete">
+                    <input class="auth-input" type="email"/><span></span>
+                  </div>
+                </label>
+                <label class="auth-label">
+                  <p>
+                     Пароль<a class="forget-pass" href="forgot_pass.html">Забыли пароль?</a></p>
+                  <div class="auth-delete">
+                    <input class="auth-input" type="password"/><span></span>
+                  </div>
+                </label>
+              </div>
+              <label class="auth-check">
+                <input type="checkbox"/><span>Запомнить меня</span>
+              </label>
+              <button class="auth-item-button"><span>Войти</span></button>
+            </form>
+          </div>
+          <div class="auth-item">
+            <form>
+              <div>
+                <label class="auth-label">
+                  <p>Email</p>
+                  <div class="auth-delete">
+                    <input class="auth-input" type="email"/><span></span>
+                  </div>
+                </label>
+                <label class="auth-label">
+                  <p>Пароль<span class="pass-check1" id="pass-check"></span></p>
+                  <div class="auth-delete">
+                    <input class="auth-input" type="password" oninput="checkPassword(this)"/><span></span>
+                  </div>
+                  <div class="progress-bar1" id="progress-bar"></div>
+                </label>
+                <label class="auth-label">
+                  <p>Дата рождения</p>
+                  <div class="auth-delete">
+                    <input class="auth-input" type="text" id="date-input" value="__.__.____"/><span></span>
+                  </div>
+                </label>
+              </div>
+              <label class="auth-check">
+                <input type="checkbox"/><span>Согласен <a href="#">с политикой обработки персональных данных</a></span>
+              </label>
+              <button class="auth-item-button"><span>Зарегистрироваться</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-fix">
+      <div class="foot-block">
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-6 copyrith"><span>© 2019 — Modern Craiglist</span></div>
+            <div class="col-lg-6 footer-links"><a href="reg.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="#"><span>Политика обработки персональных данных</span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
