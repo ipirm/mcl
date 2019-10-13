@@ -34,4 +34,7 @@ if (document.querySelector('.city_1 input') !== null) {
         })
     };
 }
-
+if(document.querySelector('.location-block') !==0){
+    document.querySelector('.location-block').onmouseover = () => document.querySelector('.choose-region').style.display = 'block';
+    document.querySelector('.location-block').onmouseleave = () => document.querySelector('.choose-region').style.display = 'none';
+}
